@@ -1,0 +1,19 @@
+{
+  "name": "fix-9router",
+  "version": "0.7.0",
+  "description": "Patch + manage 9router: AG image, gc/genlang routing, gemini key health-check + bulk create/discover, web UI.",
+  "type": "module",
+  "bin": {
+    "fix-9router": "./bin/fix-9router.js",
+    "fix-9r": "./bin/fix-9router.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

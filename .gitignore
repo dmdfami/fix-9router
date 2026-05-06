@@ -1,0 +1,12 @@
+node_modules/
+.npm-cache/
+*.tgz
+.DS_Store
+
+# Defensive: never commit user state or backups
+*.bak-*
+db.json
+.9router/
+.env
+.env.local
+*.log
